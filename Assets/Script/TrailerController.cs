@@ -6,7 +6,7 @@ public class TrailerController : MonoBehaviour
     // Kéo và thả đối tượng Button "Skipping" vào ô này trong Inspector
     public GameObject skippingButton; 
     
-    // Tên Scene tiếp theo (Game/Level 1)
+    // Tên Scene tiếp theo (Game/`Level 1)
     public string gameSceneName = "Phòng ngủ"; 
 
     void Start()
