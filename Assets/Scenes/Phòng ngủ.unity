@@ -12812,6 +12812,18 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: ee3eda938f7456f4bb863f343fbae0fa, type: 2}
+    - target: {fileID: 7426589355848256142, guid: ca7f0f60436ffc54ebdbc8b2136a683d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999653
+      objectReference: {fileID: 0}
+    - target: {fileID: 7426589355848256142, guid: ca7f0f60436ffc54ebdbc8b2136a683d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.008329407
+      objectReference: {fileID: 0}
+    - target: {fileID: 7426589355848256142, guid: ca7f0f60436ffc54ebdbc8b2136a683d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.954
+      objectReference: {fileID: 0}
     - target: {fileID: 7467060129411176091, guid: ca7f0f60436ffc54ebdbc8b2136a683d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -12932,6 +12944,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6211669203182366353, guid: ca7f0f60436ffc54ebdbc8b2136a683d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 735535517}
+    - targetCorrespondingSourceObject: {fileID: 6211669203182366353, guid: ca7f0f60436ffc54ebdbc8b2136a683d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2146918928}
     - targetCorrespondingSourceObject: {fileID: 2433685210394598059, guid: ca7f0f60436ffc54ebdbc8b2136a683d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1618132543}
@@ -15005,6 +15020,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143865902}
   m_CullTransparentMesh: 1
+--- !u!95 &2146918928
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810825078}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0bdba968000ffc0408dc7e1f3e0e1902, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!33 &10942840999046848
 MeshFilter:
   m_ObjectHideFlags: 0
